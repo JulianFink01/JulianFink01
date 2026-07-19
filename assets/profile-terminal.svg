@@ -1,58 +1,88 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
-  <title id="title">Julian Fink terminal profile</title>
-  <desc id="desc">A dark terminal card summarizing Julian Fink's role, focus and technology stack.</desc>
-  <rect width="1200" height="560" rx="22" fill="#0d1117"/>
-  <rect x="1.5" y="1.5" width="1197" height="557" rx="20.5" fill="none" stroke="#30363d" stroke-width="3"/>
-  <rect x="2" y="2" width="1196" height="58" rx="20" fill="#161b22"/>
-  <path d="M2 42h1196v18H2z" fill="#161b22"/>
-  <circle cx="38" cy="30" r="8" fill="#ff7b72"/>
-  <circle cx="64" cy="30" r="8" fill="#d29922"/>
-  <circle cx="90" cy="30" r="8" fill="#3fb950"/>
-  <text x="122" y="37" fill="#8b949e" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="18">julian@st-gallen:~</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Julian Fink neofetch profile</title>
+  <desc id="desc">A dark terminal card with an ASCII character portrait derived from Julian Fink's supplied photo and profile details.</desc>
+  <rect width="1200" height="680" rx="18" fill="#0d1117"/>
+  <rect x="1.5" y="1.5" width="1197" height="677" rx="16.5" fill="none" stroke="#30363d" stroke-width="3"/>
+  <rect x="2" y="2" width="1196" height="58" rx="16" fill="#161b22"/>
+  <path d="M2 43h1196v17H2z" fill="#161b22"/>
+  <circle cx="36" cy="30" r="8" fill="#ff7b72"/>
+  <circle cx="62" cy="30" r="8" fill="#d29922"/>
+  <circle cx="88" cy="30" r="8" fill="#3fb950"/>
+  <text x="120" y="37" fill="#8b949e" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="18">julian@fink:~</text>
 
+  <rect x="38" y="84" width="376" height="538" rx="12" fill="#010409" stroke="#21262d"/>
+  <text x="58" y="112" fill="#58a6ff" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="16">$ portrait --charset</text>
+  <text x="58" y="142" fill="#e6edf3" opacity="0.92" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="13.5" xml:space="preserve">
+    <tspan x="58" y="142">==.                  .  ...=*.      </tspan>
+    <tspan x="58" dy="14">=+                  .....::=.      :</tspan>
+    <tspan x="58" dy="14">-=                 .  ...::       ..</tspan>
+    <tspan x="58" dy="14">::                ...  ..-.         </tspan>
+    <tspan x="58" dy="14">::               .:..  ..:..        </tspan>
+    <tspan x="58" dy="14">:=.             ..... ...:.:        </tspan>
+    <tspan x="58" dy="14">:::             .......:::..        </tspan>
+    <tspan x="58" dy="14">..::            ......:.:--:: .     </tspan>
+    <tspan x="58" dy="14">  .:            ..... ..:-:++..     </tspan>
+    <tspan x="58" dy="14"> ....           ..      .. :-.      </tspan>
+    <tspan x="58" dy="14">.  .-          .:                   </tspan>
+    <tspan x="58" dy="14">-.....         .:  #%%#-     .      </tspan>
+    <tspan x="58" dy="14">=....:         :.-%+=*#%*:=:..      </tspan>
+    <tspan x="58" dy="14">:..:-=:       .:.*+ -*#***++:.    . </tspan>
+    <tspan x="58" dy="14">:..:--=       .:.+: + +#*+::::    . </tspan>
+    <tspan x="58" dy="14">=::::-=.      :::  .: --:....:      </tspan>
+    <tspan x="58" dy="14">=::-::=.     ..::    .:   . ..      </tspan>
+    <tspan x="58" dy="14">:..:::--     ..:-     .. ..         </tspan>
+    <tspan x="58" dy="14">:.:::-=:     ..::-.    .--.         </tspan>
+    <tspan x="58" dy="14">::::--=:   ...:::-:=--=*--.   .     </tspan>
+    <tspan x="58" dy="14">-::---=-   ..::::-  +##+:=.  .      </tspan>
+    <tspan x="58" dy="14">:::::::-   ::::-=+:   :..%=:--      </tspan>
+    <tspan x="58" dy="14">:-:::::-  .::::=*#-      +###-      </tspan>
+    <tspan x="58" dy="14">:---:.:-  ::::-#%%%:     :#%%+      </tspan>
+    <tspan x="58" dy="14">:-:::::-  ..:-+%%%%%.   -%%%%%+    :</tspan>
+    <tspan x="58" dy="14">::::.::-  .-+##%%%%%#  :@%%%%##*-   </tspan>
+    <tspan x="58" dy="14">-::.:::-  -#%%%##%%%%. %%@%%####%-  </tspan>
+    <tspan x="58" dy="14">:--:::-- .#%%%%####%%+=%%%#######%. </tspan>
+    <tspan x="58" dy="14">---:::-- =%%%#%#####%##%#######%%%* </tspan>
+    <tspan x="58" dy="14">:--:::-:.#%%%%%#####%##%###%%%#%#%%+</tspan>
+    <tspan x="58" dy="14">:------:+%%%%####%#%%%#%#%*:-*#%%%%%</tspan>
+    <tspan x="58" dy="14">::------#%%%%%###%%%%%#%#%#+: =%%%%%</tspan>
+    <tspan x="58" dy="14">:------+%%%%%%#%%%%%%%#%#%%%%%%%%@%%</tspan>
+    <tspan x="58" dy="14">---:--=#%%%%%%%%%%%%%%#%%%%%%%%%%%%%</tspan>
+    <tspan x="58" dy="14">-::--=*%%%%%%%%%%%%%%%#%%%%%%%%%#%%%</tspan>
+    <tspan x="58" dy="14">:--=-=#%%%%#%%%%%%%%%%#%%%%%%%%%#%%%</tspan>
+  </text>
+  <text x="58" y="598" fill="#8b949e" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="14">PHOTO → CHARSET / 36 × 36</text>
+
+  <line x1="462" y1="104" x2="462" y2="604" stroke="#30363d" stroke-width="2"/>
   <g font-family="SFMono-Regular,Consolas,Liberation Mono,monospace">
-    <text x="58" y="108" fill="#58a6ff" font-size="20">$</text>
-    <text x="86" y="108" fill="#c9d1d9" font-size="20">whoami --profile</text>
+    <text x="520" y="142" fill="#f0f6fc" font-size="30" font-weight="700">julian@fink</text>
+    <text x="520" y="172" fill="#58a6ff" font-size="20">────────────────────────</text>
 
-    <text x="58" y="165" fill="#3fb950" font-size="25">                 /</text>
-    <text x="58" y="193" fill="#3fb950" font-size="25">        /      /        /</text>
-    <text x="58" y="221" fill="#3fb950" font-size="25">       /      /        /  </text>
-    <text x="58" y="249" fill="#3fb950" font-size="25">  /  /    __/      __/      /</text>
-    <text x="58" y="277" fill="#3fb950" font-size="25"> /  ________________________/  </text>
-    <text x="58" y="315" fill="#8b949e" font-size="16">FROM ALPINE ROOTS</text>
-    <text x="58" y="340" fill="#8b949e" font-size="16">TO PRODUCTION SYSTEMS</text>
+    <text x="520" y="218" fill="#79c0ff" font-size="18">OS:</text>
+    <text x="630" y="218" fill="#c9d1d9" font-size="18">St. Gallen, Switzerland</text>
 
-    <line x1="460" y1="132" x2="460" y2="440" stroke="#30363d" stroke-width="2"/>
-    <text x="510" y="156" fill="#f0f6fc" font-size="31" font-weight="700">Julian Fink</text>
-    <text x="510" y="193" fill="#58a6ff" font-size="19">Fullstack Developer · St. Gallen, Switzerland</text>
+    <text x="520" y="258" fill="#79c0ff" font-size="18">ROLE:</text>
+    <text x="630" y="258" fill="#c9d1d9" font-size="18">Fullstack Developer</text>
 
-    <text x="510" y="248" fill="#8b949e" font-size="17">FOCUS</text>
-    <text x="645" y="248" fill="#c9d1d9" font-size="18">reliable systems · clear interfaces</text>
+    <text x="520" y="298" fill="#79c0ff" font-size="18">FOCUS:</text>
+    <text x="630" y="298" fill="#c9d1d9" font-size="18">reliable software for real-world systems</text>
 
-    <text x="510" y="286" fill="#8b949e" font-size="17">BUILD</text>
-    <text x="645" y="286" fill="#c9d1d9" font-size="18">frontend · backend · automation · infrastructure</text>
+    <text x="520" y="338" fill="#79c0ff" font-size="18">STACK:</text>
+    <text x="630" y="338" fill="#c9d1d9" font-size="18">Java · React · Angular · Kafka</text>
 
-    <text x="510" y="344" fill="#8b949e" font-size="17">STACK</text>
-    <rect x="645" y="319" width="79" height="35" rx="8" fill="#161b22" stroke="#30363d"/>
-    <text x="662" y="343" fill="#c9d1d9" font-size="16">Java</text>
-    <rect x="735" y="319" width="91" height="35" rx="8" fill="#161b22" stroke="#30363d"/>
-    <text x="752" y="343" fill="#c9d1d9" font-size="16">React</text>
-    <rect x="837" y="319" width="104" height="35" rx="8" fill="#161b22" stroke="#30363d"/>
-    <text x="854" y="343" fill="#c9d1d9" font-size="16">Angular</text>
-    <rect x="952" y="319" width="87" height="35" rx="8" fill="#161b22" stroke="#30363d"/>
-    <text x="969" y="343" fill="#c9d1d9" font-size="16">Kafka</text>
+    <text x="520" y="378" fill="#79c0ff" font-size="18">BUILD:</text>
+    <text x="630" y="378" fill="#c9d1d9" font-size="18">automation · infrastructure · GenAI</text>
 
-    <rect x="645" y="367" width="119" height="35" rx="8" fill="#161b22" stroke="#30363d"/>
-    <text x="662" y="391" fill="#c9d1d9" font-size="16">TypeScript</text>
-    <rect x="776" y="367" width="119" height="35" rx="8" fill="#161b22" stroke="#30363d"/>
-    <text x="793" y="391" fill="#c9d1d9" font-size="16">Kubernetes</text>
-    <rect x="907" y="367" width="101" height="35" rx="8" fill="#161b22" stroke="#30363d"/>
-    <text x="924" y="391" fill="#c9d1d9" font-size="16">CI/CD</text>
+    <text x="520" y="418" fill="#79c0ff" font-size="18">PROJECT:</text>
+    <text x="630" y="418" fill="#c9d1d9" font-size="18">InfraPilot / SolarPlaner</text>
 
-    <text x="58" y="488" fill="#3fb950" font-size="20">$</text>
-    <text x="86" y="488" fill="#c9d1d9" font-size="20">status --ready</text>
-    <text x="286" y="488" fill="#8b949e" font-size="20">open to meaningful builds</text>
-    <circle cx="1101" cy="481" r="8" fill="#3fb950"/>
-    <text x="1121" y="488" fill="#3fb950" font-size="17">ONLINE</text>
+    <text x="520" y="458" fill="#79c0ff" font-size="18">WEB:</text>
+    <text x="630" y="458" fill="#c9d1d9" font-size="18">fink-cloud.net</text>
+
+    <text x="520" y="498" fill="#79c0ff" font-size="18">STATUS:</text>
+    <text x="630" y="498" fill="#3fb950" font-size="18">building systems that hold up</text>
+
+    <text x="520" y="572" fill="#3fb950" font-size="18">$</text>
+    <text x="548" y="572" fill="#c9d1d9" font-size="18">git status --profile</text>
+    <text x="520" y="604" fill="#8b949e" font-size="16">working tree clean</text>
   </g>
 </svg>

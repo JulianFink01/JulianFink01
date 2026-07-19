@@ -1,25 +1,10 @@
-<!-- This README is displayed automatically at the top of github.com/JulianFink01. -->
-
 <div align="center">
 
-# Julian Fink
-
-**Fullstack Developer · St. Gallen, Switzerland**
+<img src="./assets/profile-terminal.svg" alt="Julian Fink — terminal profile" width="100%" />
 
 [Website](https://fink-cloud.net) · [LinkedIn](https://www.linkedin.com/in/julian-fink-a175451b4)
 
 </div>
-
-```text
-╭──────────────────────────────────────────────────────────────╮
-│ julian@st-gallen:~$ ./profile --summary                     │
-├──────────────────────────────────────────────────────────────┤
-│ role      Fullstack Developer                                │
-│ focus     Reliable systems · clear interfaces · calm work    │
-│ stack     Java · React · Angular · Kafka · Automation        │
-│ location  St. Gallen, Switzerland                            │
-╰──────────────────────────────────────────────────────────────╯
-```
 
 ## Building systems that hold up
 
@@ -31,7 +16,7 @@ I build software for real-world systems: from clear frontend interfaces to relia
 - **SolarPlaner** — a React Native app for planning solar modules on roof imagery.
 - **Production integrations** — Java, Angular, Kafka Streams, automation, monitoring and infrastructure work.
 
-### Toolbox
+### Core stack
 
 `Java` · `React` · `Angular` · `TypeScript` · `Kafka` · `Spring Boot` · `Quarkus` · `React Native` · `Kubernetes` · `CI/CD`
 

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Julian Fink terminal profile</title>
+  <desc id="desc">A dark terminal card summarizing Julian Fink's role, focus and technology stack.</desc>
+  <rect width="1200" height="560" rx="22" fill="#0d1117"/>
+  <rect x="1.5" y="1.5" width="1197" height="557" rx="20.5" fill="none" stroke="#30363d" stroke-width="3"/>
+  <rect x="2" y="2" width="1196" height="58" rx="20" fill="#161b22"/>
+  <path d="M2 42h1196v18H2z" fill="#161b22"/>
+  <circle cx="38" cy="30" r="8" fill="#ff7b72"/>
+  <circle cx="64" cy="30" r="8" fill="#d29922"/>
+  <circle cx="90" cy="30" r="8" fill="#3fb950"/>
+  <text x="122" y="37" fill="#8b949e" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="18">julian@st-gallen:~</text>
+
+  <g font-family="SFMono-Regular,Consolas,Liberation Mono,monospace">
+    <text x="58" y="108" fill="#58a6ff" font-size="20">$</text>
+    <text x="86" y="108" fill="#c9d1d9" font-size="20">whoami --profile</text>
+
+    <text x="58" y="165" fill="#3fb950" font-size="25">                 /</text>
+    <text x="58" y="193" fill="#3fb950" font-size="25">        /      /        /</text>
+    <text x="58" y="221" fill="#3fb950" font-size="25">       /      /        /  </text>
+    <text x="58" y="249" fill="#3fb950" font-size="25">  /  /    __/      __/      /</text>
+    <text x="58" y="277" fill="#3fb950" font-size="25"> /  ________________________/  </text>
+    <text x="58" y="315" fill="#8b949e" font-size="16">FROM ALPINE ROOTS</text>
+    <text x="58" y="340" fill="#8b949e" font-size="16">TO PRODUCTION SYSTEMS</text>
+
+    <line x1="460" y1="132" x2="460" y2="440" stroke="#30363d" stroke-width="2"/>
+    <text x="510" y="156" fill="#f0f6fc" font-size="31" font-weight="700">Julian Fink</text>
+    <text x="510" y="193" fill="#58a6ff" font-size="19">Fullstack Developer · St. Gallen, Switzerland</text>
+
+    <text x="510" y="248" fill="#8b949e" font-size="17">FOCUS</text>
+    <text x="645" y="248" fill="#c9d1d9" font-size="18">reliable systems · clear interfaces</text>
+
+    <text x="510" y="286" fill="#8b949e" font-size="17">BUILD</text>
+    <text x="645" y="286" fill="#c9d1d9" font-size="18">frontend · backend · automation · infrastructure</text>
+
+    <text x="510" y="344" fill="#8b949e" font-size="17">STACK</text>
+    <rect x="645" y="319" width="79" height="35" rx="8" fill="#161b22" stroke="#30363d"/>
+    <text x="662" y="343" fill="#c9d1d9" font-size="16">Java</text>
+    <rect x="735" y="319" width="91" height="35" rx="8" fill="#161b22" stroke="#30363d"/>
+    <text x="752" y="343" fill="#c9d1d9" font-size="16">React</text>
+    <rect x="837" y="319" width="104" height="35" rx="8" fill="#161b22" stroke="#30363d"/>
+    <text x="854" y="343" fill="#c9d1d9" font-size="16">Angular</text>
+    <rect x="952" y="319" width="87" height="35" rx="8" fill="#161b22" stroke="#30363d"/>
+    <text x="969" y="343" fill="#c9d1d9" font-size="16">Kafka</text>
+
+    <rect x="645" y="367" width="119" height="35" rx="8" fill="#161b22" stroke="#30363d"/>
+    <text x="662" y="391" fill="#c9d1d9" font-size="16">TypeScript</text>
+    <rect x="776" y="367" width="119" height="35" rx="8" fill="#161b22" stroke="#30363d"/>
+    <text x="793" y="391" fill="#c9d1d9" font-size="16">Kubernetes</text>
+    <rect x="907" y="367" width="101" height="35" rx="8" fill="#161b22" stroke="#30363d"/>
+    <text x="924" y="391" fill="#c9d1d9" font-size="16">CI/CD</text>
+
+    <text x="58" y="488" fill="#3fb950" font-size="20">$</text>
+    <text x="86" y="488" fill="#c9d1d9" font-size="20">status --ready</text>
+    <text x="286" y="488" fill="#8b949e" font-size="20">open to meaningful builds</text>
+    <circle cx="1101" cy="481" r="8" fill="#3fb950"/>
+    <text x="1121" y="488" fill="#3fb950" font-size="17">ONLINE</text>
+  </g>
+</svg>

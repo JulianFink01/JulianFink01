@@ -1,88 +1,97 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
-  <title id="title">Julian Fink neofetch profile</title>
-  <desc id="desc">A dark terminal card with an ASCII character portrait derived from Julian Fink's supplied photo and profile details.</desc>
-  <rect width="1200" height="680" rx="18" fill="#0d1117"/>
-  <rect x="1.5" y="1.5" width="1197" height="677" rx="16.5" fill="none" stroke="#30363d" stroke-width="3"/>
-  <rect x="2" y="2" width="1196" height="58" rx="16" fill="#161b22"/>
-  <path d="M2 43h1196v17H2z" fill="#161b22"/>
-  <circle cx="36" cy="30" r="8" fill="#ff7b72"/>
-  <circle cx="62" cy="30" r="8" fill="#d29922"/>
-  <circle cx="88" cy="30" r="8" fill="#3fb950"/>
-  <text x="120" y="37" fill="#8b949e" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="18">julian@fink:~</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">Julian Fink ASCII profile</title>
+  <desc id="desc">A minimal terminal-inspired profile graphic with a high-contrast ASCII portrait derived from Julian Fink's supplied photo and profile details.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#30363d" stroke-opacity=".25" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="22%" cy="45%" r="54%">
+      <stop offset="0" stop-color="#1f6feb" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
 
-  <rect x="38" y="84" width="376" height="538" rx="12" fill="#010409" stroke="#21262d"/>
-  <text x="58" y="112" fill="#58a6ff" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="16">$ portrait --charset</text>
-  <text x="58" y="142" fill="#e6edf3" opacity="0.92" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="13.5" xml:space="preserve">
-    <tspan x="58" y="142">==.                  .  ...=*.      </tspan>
-    <tspan x="58" dy="14">=+                  .....::=.      :</tspan>
-    <tspan x="58" dy="14">-=                 .  ...::       ..</tspan>
-    <tspan x="58" dy="14">::                ...  ..-.         </tspan>
-    <tspan x="58" dy="14">::               .:..  ..:..        </tspan>
-    <tspan x="58" dy="14">:=.             ..... ...:.:        </tspan>
-    <tspan x="58" dy="14">:::             .......:::..        </tspan>
-    <tspan x="58" dy="14">..::            ......:.:--:: .     </tspan>
-    <tspan x="58" dy="14">  .:            ..... ..:-:++..     </tspan>
-    <tspan x="58" dy="14"> ....           ..      .. :-.      </tspan>
-    <tspan x="58" dy="14">.  .-          .:                   </tspan>
-    <tspan x="58" dy="14">-.....         .:  #%%#-     .      </tspan>
-    <tspan x="58" dy="14">=....:         :.-%+=*#%*:=:..      </tspan>
-    <tspan x="58" dy="14">:..:-=:       .:.*+ -*#***++:.    . </tspan>
-    <tspan x="58" dy="14">:..:--=       .:.+: + +#*+::::    . </tspan>
-    <tspan x="58" dy="14">=::::-=.      :::  .: --:....:      </tspan>
-    <tspan x="58" dy="14">=::-::=.     ..::    .:   . ..      </tspan>
-    <tspan x="58" dy="14">:..:::--     ..:-     .. ..         </tspan>
-    <tspan x="58" dy="14">:.:::-=:     ..::-.    .--.         </tspan>
-    <tspan x="58" dy="14">::::--=:   ...:::-:=--=*--.   .     </tspan>
-    <tspan x="58" dy="14">-::---=-   ..::::-  +##+:=.  .      </tspan>
-    <tspan x="58" dy="14">:::::::-   ::::-=+:   :..%=:--      </tspan>
-    <tspan x="58" dy="14">:-:::::-  .::::=*#-      +###-      </tspan>
-    <tspan x="58" dy="14">:---:.:-  ::::-#%%%:     :#%%+      </tspan>
-    <tspan x="58" dy="14">:-:::::-  ..:-+%%%%%.   -%%%%%+    :</tspan>
-    <tspan x="58" dy="14">::::.::-  .-+##%%%%%#  :@%%%%##*-   </tspan>
-    <tspan x="58" dy="14">-::.:::-  -#%%%##%%%%. %%@%%####%-  </tspan>
-    <tspan x="58" dy="14">:--:::-- .#%%%%####%%+=%%%#######%. </tspan>
-    <tspan x="58" dy="14">---:::-- =%%%#%#####%##%#######%%%* </tspan>
-    <tspan x="58" dy="14">:--:::-:.#%%%%%#####%##%###%%%#%#%%+</tspan>
-    <tspan x="58" dy="14">:------:+%%%%####%#%%%#%#%*:-*#%%%%%</tspan>
-    <tspan x="58" dy="14">::------#%%%%%###%%%%%#%#%#+: =%%%%%</tspan>
-    <tspan x="58" dy="14">:------+%%%%%%#%%%%%%%#%#%%%%%%%%@%%</tspan>
-    <tspan x="58" dy="14">---:--=#%%%%%%%%%%%%%%#%%%%%%%%%%%%%</tspan>
-    <tspan x="58" dy="14">-::--=*%%%%%%%%%%%%%%%#%%%%%%%%%#%%%</tspan>
-    <tspan x="58" dy="14">:--=-=#%%%%#%%%%%%%%%%#%%%%%%%%%#%%%</tspan>
-  </text>
-  <text x="58" y="598" fill="#8b949e" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="14">PHOTO → CHARSET / 36 × 36</text>
+  <rect width="1200" height="600" fill="#0d1117"/>
+  <rect width="1200" height="600" fill="url(#grid)"/>
+  <rect width="1200" height="600" fill="url(#glow)"/>
 
-  <line x1="462" y1="104" x2="462" y2="604" stroke="#30363d" stroke-width="2"/>
   <g font-family="SFMono-Regular,Consolas,Liberation Mono,monospace">
-    <text x="520" y="142" fill="#f0f6fc" font-size="30" font-weight="700">julian@fink</text>
-    <text x="520" y="172" fill="#58a6ff" font-size="20">────────────────────────</text>
+    <text x="56" y="48" fill="#58a6ff" font-size="16">$ portrait --ascii --high-contrast</text>
+    <text x="56" fill="#e6edf3" font-size="11.7" font-weight="700" xml:space="preserve">
+    <tspan x="56" y="86">                                                                </tspan>
+    <tspan x="56" dy="11.7">                                                                </tspan>
+    <tspan x="56" dy="11.7">                                                                </tspan>
+    <tspan x="56" dy="11.7">                                                                </tspan>
+    <tspan x="56" dy="11.7">                                                                </tspan>
+    <tspan x="56" dy="11.7">                         .=*###%##*+*++=:                       </tspan>
+    <tspan x="56" dy="11.7">                    :=*#%%%%%######%%%%%%%*                     </tspan>
+    <tspan x="56" dy="11.7">                   *@%%%%%%%%%%%%%%%######%%=                   </tspan>
+    <tspan x="56" dy="11.7">                 .%%%%%%#+==-:::--=+*#%%#####+                  </tspan>
+    <tspan x="56" dy="11.7">                 %%%#+-               :=*#%####.                </tspan>
+    <tspan x="56" dy="11.7">                #%*:                      -+*###                </tspan>
+    <tspan x="56" dy="11.7">               =%:                           :=**               </tspan>
+    <tspan x="56" dy="11.7">               +         -=+*=-+=.              =:              </tspan>
+    <tspan x="56" dy="11.7">              +         =%%@*+=--:.              :              </tspan>
+    <tspan x="56" dy="11.7">               =    :  :+%%#==-:                                </tspan>
+    <tspan x="56" dy="11.7">               =    -  -*%%#==- =*.                             </tspan>
+    <tspan x="56" dy="11.7">                   :- .-*%%+=- =%#*           :                 </tspan>
+    <tspan x="56" dy="11.7">               :: +::  -+*+-::+%%%#*-         :-:==             </tspan>
+    <tspan x="56" dy="11.7">              -+*+#*+---==--=*+=++=-===+++++==++==-             </tspan>
+    <tspan x="56" dy="11.7">              .+#+#%%%%%%##%##+++--==+**###**+++-+-             </tspan>
+    <tspan x="56" dy="11.7">               +#=*%######***+=====--====+**+++==+              </tspan>
+    <tspan x="56" dy="11.7">                *#*#####*=-=+==++++++=----=*++==*:              </tspan>
+    <tspan x="56" dy="11.7">                 %#*##*#*+*#####*********++=-----               </tspan>
+    <tspan x="56" dy="11.7">                  :+++++*+#%%%##*=-=****+==-::::                </tspan>
+    <tspan x="56" dy="11.7">                   --====-=####%%*+###*+-::   :                 </tspan>
+    <tspan x="56" dy="11.7">                    -:::::-==+++++=*+-::.    :.                 </tspan>
+    <tspan x="56" dy="11.7">                    :#:      ::::---:       :=                  </tspan>
+    <tspan x="56" dy="11.7">                     %#=:                  ::-:                 </tspan>
+    <tspan x="56" dy="11.7">                     #%#*+-:.            ::--=:                 </tspan>
+    <tspan x="56" dy="11.7">                     *%%##*++==-:::.:::::----=:                 </tspan>
+    <tspan x="56" dy="11.7">                     *%%###*****++==----======-                 </tspan>
+    <tspan x="56" dy="11.7">                     -%%%###******++===++++====                 </tspan>
+    <tspan x="56" dy="11.7">        :-:..        :*%%#####****+++++++++====-                </tspan>
+    <tspan x="56" dy="11.7">       -:              -*#%####***********=======-              </tspan>
+    <tspan x="56" dy="11.7">       :                 :+######*********++====-               </tspan>
+    <tspan x="56" dy="11.7">                           :+##########***##*=:                 </tspan>
+    <tspan x="56" dy="11.7">      :                      -#%########%%#=                    </tspan>
+    <tspan x="56" dy="11.7">                               #@@@@@@@@@=                      </tspan>
+    <tspan x="56" dy="11.7">                                +@@@@@@*                        </tspan>
+    <tspan x="56" dy="11.7">                                 =@@@@-                         </tspan>
+    <tspan x="56" dy="11.7">                                  =@#                           </tspan>
+    <tspan x="56" dy="11.7">                                   =                            </tspan>
+    <tspan x="56" dy="11.7">                                   =.                           </tspan>
+    </text>
+    <text x="56" y="580" fill="#8b949e" font-size="14">PHOTO → CHARSET / 64 × 43</text>
 
-    <text x="520" y="218" fill="#79c0ff" font-size="18">OS:</text>
-    <text x="630" y="218" fill="#c9d1d9" font-size="18">St. Gallen, Switzerland</text>
+    <line x1="558" y1="50" x2="558" y2="548" stroke="#30363d" stroke-width="2"/>
+    <path d="M584 82h84" stroke="#58a6ff" stroke-width="3"/>
+    <text x="584" y="116" fill="#f0f6fc" font-size="32" font-weight="700">julian@fink</text>
+    <text x="584" y="148" fill="#8b949e" font-size="16">FULLSTACK DEVELOPER / SWITZERLAND</text>
 
-    <text x="520" y="258" fill="#79c0ff" font-size="18">ROLE:</text>
-    <text x="630" y="258" fill="#c9d1d9" font-size="18">Fullstack Developer</text>
+    <text x="584" y="206" fill="#79c0ff" font-size="18">ROLE</text>
+    <text x="734" y="206" fill="#c9d1d9" font-size="18">Fullstack developer</text>
 
-    <text x="520" y="298" fill="#79c0ff" font-size="18">FOCUS:</text>
-    <text x="630" y="298" fill="#c9d1d9" font-size="18">reliable software for real-world systems</text>
+    <text x="584" y="248" fill="#79c0ff" font-size="18">BASE</text>
+    <text x="734" y="248" fill="#c9d1d9" font-size="18">St. Gallen, Switzerland</text>
 
-    <text x="520" y="338" fill="#79c0ff" font-size="18">STACK:</text>
-    <text x="630" y="338" fill="#c9d1d9" font-size="18">Java · React · Angular · Kafka</text>
+    <text x="584" y="290" fill="#79c0ff" font-size="18">FOCUS</text>
+    <text x="734" y="290" fill="#c9d1d9" font-size="18">reliable systems · clear interfaces</text>
 
-    <text x="520" y="378" fill="#79c0ff" font-size="18">BUILD:</text>
-    <text x="630" y="378" fill="#c9d1d9" font-size="18">automation · infrastructure · GenAI</text>
+    <text x="584" y="332" fill="#79c0ff" font-size="18">STACK</text>
+    <text x="734" y="332" fill="#c9d1d9" font-size="18">Java · React · Angular · Kafka</text>
 
-    <text x="520" y="418" fill="#79c0ff" font-size="18">PROJECT:</text>
-    <text x="630" y="418" fill="#c9d1d9" font-size="18">InfraPilot / SolarPlaner</text>
+    <text x="584" y="374" fill="#79c0ff" font-size="18">WORK</text>
+    <text x="734" y="374" fill="#c9d1d9" font-size="18">automation · infrastructure · GenAI</text>
 
-    <text x="520" y="458" fill="#79c0ff" font-size="18">WEB:</text>
-    <text x="630" y="458" fill="#c9d1d9" font-size="18">fink-cloud.net</text>
+    <text x="584" y="416" fill="#79c0ff" font-size="18">PROJECTS</text>
+    <text x="734" y="416" fill="#c9d1d9" font-size="18">InfraPilot · Cosmic Jetpack Arena</text>
+    <text x="734" y="444" fill="#c9d1d9" font-size="18">SolarPlaner</text>
 
-    <text x="520" y="498" fill="#79c0ff" font-size="18">STATUS:</text>
-    <text x="630" y="498" fill="#3fb950" font-size="18">building systems that hold up</text>
+    <text x="584" y="486" fill="#79c0ff" font-size="18">WEB</text>
+    <text x="734" y="486" fill="#c9d1d9" font-size="18">fink-cloud.net</text>
 
-    <text x="520" y="572" fill="#3fb950" font-size="18">$</text>
-    <text x="548" y="572" fill="#c9d1d9" font-size="18">git status --profile</text>
-    <text x="520" y="604" fill="#8b949e" font-size="16">working tree clean</text>
+    <text x="584" y="544" fill="#3fb950" font-size="18">$</text>
+    <text x="612" y="544" fill="#c9d1d9" font-size="18">status: building systems that hold up</text>
   </g>
 </svg>

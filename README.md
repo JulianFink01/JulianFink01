@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-terminal.svg" alt="Julian Fink — terminal profile" width="100%" />
+<img src="./assets/profile-terminal.svg?v=ccc97ea9a09f60f2ea85d9a97ca6ef7827c49309" alt="Julian Fink — terminal profile" width="100%" />
 
 [Website](https://fink-cloud.net) · [LinkedIn](https://www.linkedin.com/in/julian-fink-a175451b4)
 
